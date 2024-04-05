@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  flex: 1;
+  min-width: 350px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.title-region {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
